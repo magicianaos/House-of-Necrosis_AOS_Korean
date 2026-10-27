@@ -1,0 +1,11 @@
+# 빌드 결과물은 GitHub Releases 에 첨부만 하고 저장소에는 올리지 않음
+*.exe
+*.xlsx
+_old/
+# 빌드 환경·제보 중계 주소가 섞여 들어오지 않게
+.venv/
+build/
+dist/
+payload/
+__pycache__/
+feedback.json
